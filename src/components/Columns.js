@@ -7,32 +7,32 @@ const Columns = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                 <div className="mx-auto animate-bounce">
                     <Button color="blue">
-                        Button one
+                        Bounce
                     </Button>
                 </div>
                 <div className="mx-auto animate-spin">
                     <Button color="cyan">
-                        Button two
+                        Spin
                     </Button>
                 </div>
                 <div className="mx-auto animate-ping">
                     <Button color="red">
-                        Button three
+                        Ping
                     </Button>
                 </div>
                 <div className="mx-auto animate-pulse">
                     <Button color="green">
-                        Button four
+                        Pulse
                     </Button>
                 </div>
-                <div className="mx-auto">
+                <div className="mx-auto hover:scale-x-125 duration-300">
                     <Button color="orange">
-                        Button five
+                        Hover scale X
                     </Button>
                 </div>
-                <div className="mx-auto">
+                <div className="mx-auto hover:scale-y-150 duration-300">
                     <Button color="purple">
-                        Button six
+                        Hover scale Y
                     </Button>
                 </div>
             </div>

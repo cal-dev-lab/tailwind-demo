@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import Columns from "./components/Columns";
+import Input from "./components/Input";
 import MaxWidth from "./components/MaxWidth";
 import TextSize from "./components/TextSize";
 
@@ -11,6 +12,7 @@ function App() {
       <Columns />
       <TextSize />
       <MaxWidth />
+      <Input />
     </div>
   );
 }
