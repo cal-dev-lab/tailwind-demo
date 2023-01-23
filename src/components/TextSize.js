@@ -7,12 +7,12 @@ const TextSize = () => {
                 <p className="text-sm">SM</p>
             </div>
             <div className="bg-lighter-blue w-full rounded-sm">
-                <p className="text-3xl">
+                <p className="text-3xl hover:scale-105 duration-300">
                     UP TO
                 </p>
             </div>
             <div className="font-bold bg-lighter-blue w-full rounded-sm">
-                <p className="text-9xl">9XL</p>
+                <p className="text-9xl hover:text-red duration-300">9XL</p>
             </div>
         </div>
     )
