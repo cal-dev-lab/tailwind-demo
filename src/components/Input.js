@@ -72,7 +72,7 @@ const Input = () => {
                 </div>
             </div>
             <div className='flex justify-end'>
-                <Button color="green" classNames="w-[10%]">
+                <Button color="green" classNames="w-1/5">
                     Save
                 </Button>
             </div>

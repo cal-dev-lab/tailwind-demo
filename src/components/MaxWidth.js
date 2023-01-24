@@ -2,7 +2,7 @@
 
 const MaxWidth = () => {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20 text-center">
         <div className="max-w-sm bg-gray h-12 flex justify-center items-center mx-auto hover:bg-red duration-300">
             <p className="text-white">max-w-sm duration-300</p>
         </div>
