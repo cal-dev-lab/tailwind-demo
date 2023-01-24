@@ -5,6 +5,7 @@ import MaxWidth from "./components/MaxWidth";
 import TextSize from "./components/TextSize";
 import ToggleDarkMode from "./components/ToggleDarkMode";
 import Notification from "./components/Notification";
+import Gradients from "./components/Gradients";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <span className="text-xl text-cyan hover:text-blue duration-300 uppercase tracking-widest text-center">Take me to Tailwind docs &rarr;</span>
         </a>
         <a href="https://tailwindui.com/" target="_blank">
-          <span className="text-xl hover:text-blue duration-300 uppercase tracking-widest text-center">Take me to TailwindUI &rarr;</span>
+          <span className="text-xl hover:text-blue duration-300 uppercase tracking-widest text-center dark:text-white">Take me to TailwindUI &rarr;</span>
         </a>
       </div>
       {/* Components */}
@@ -25,6 +26,7 @@ function App() {
       <MaxWidth />
       <Input />
       <Notification />
+      <Gradients />
     </div>
   );
 }
