@@ -9,9 +9,9 @@ const ToggleDarkMode = () => {
             <span className="text-center dark:text-white" onClick={() => setTheme(colorTheme)}>
                 {
                     colorTheme === "light" ? (
-                        'Dark mode'
+                        'LIGHTS: OFF'
                     ) : (
-                        'Light mode'
+                        'LIGHTS: ON'
                     )
                 }
             </span>

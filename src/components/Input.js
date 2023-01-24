@@ -2,7 +2,10 @@ import React from 'react'
 
 const Input = () => {
     return (
-        <div className="mt-20 space-y-8 md:space-y-4">
+        <div className="my-20 space-y-8 md:space-y-4 dark:bg-blue bg-lighter-blue p-8 rounded-md">
+            <h1 className="text-xl dark:text-white uppercase tracking-widest">
+                wow, cool form!
+            </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* First name */}
                 <div>
