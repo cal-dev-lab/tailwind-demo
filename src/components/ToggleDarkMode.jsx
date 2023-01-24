@@ -6,12 +6,12 @@ const ToggleDarkMode = () => {
 
     return (
         <div className="w-full flex items-center justify-center mt-10">
-            <span className="text-center dark:text-white" onClick={() => setTheme(colorTheme)}>
+            <span className="text-center bg-lighter-blue dark:bg-blue px-8 py-2 rounded-md cursor-pointer dark:text-white" onClick={() => setTheme(colorTheme)}>
                 {
                     colorTheme === "light" ? (
-                        'LIGHTS: OFF'
+                        'TURN THE LIGHTS: ON'
                     ) : (
-                        'LIGHTS: ON'
+                        'TURN THE LIGHTS: OFF'
                     )
                 }
             </span>
