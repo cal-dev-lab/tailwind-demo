@@ -1,12 +1,13 @@
 import React from 'react'
+import Button from './Button';
 
 const Input = () => {
     return (
-        <div className="my-20 space-y-8 md:space-y-4 dark:bg-blue bg-lighter-blue p-8 rounded-md">
+        <div className="my-20 space-y-4 dark:bg-blue bg-lighter-blue p-8 rounded-md">
             <h1 className="text-xl dark:text-white uppercase tracking-widest">
                 wow, cool form!
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* First name */}
                 <div>
                     <label htmlFor="f_name" className="hidden">
@@ -32,7 +33,7 @@ const Input = () => {
                     />
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {/* Country */}
                 <div>
                     <label htmlFor="country" className="hidden">
@@ -69,6 +70,11 @@ const Input = () => {
                         placeholder="Telephone"
                     />
                 </div>
+            </div>
+            <div className='flex justify-end'>
+                <Button color="green" classNames="w-[10%]">
+                    Save
+                </Button>
             </div>
         </div>
     )
